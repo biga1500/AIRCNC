@@ -1,0 +1,31 @@
+ul.spot-list{
+    width: 100%;
+    list-style: none; /* tira bolinhas */
+    display: grid; /* coloca em grade o spot-list */
+    grid-template-columns: 1fr 1fr; /* tamanho do grid */
+    grid-gap: 20px; /* gap entre os grids */
+    margin-bottom: 30px;
+}
+
+ul.spot-list li{
+    display: flex; 
+    flex-direction: column; /* alinhamento de colunas uma abaixo da outra */
+}
+
+ul.spot-list li header{
+    width: 100%;
+    height: 120px;
+    background-size: cover;/*  imagem ocupe todo o espaço possível  com base na altura e largura*/
+    border-radius: 4px;
+}
+
+ul.spot-list li strong{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444;
+}
+
+ul.spot-list li span{
+    font-size: 15px;
+    color: #999;
+}
